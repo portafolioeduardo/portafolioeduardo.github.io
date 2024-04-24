@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form h2 {
+    color: #ccc;
+}
+form {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: #e3e5e3;
+    
+}
+
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+     }
+    
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+header {
+    background-color: #333;
+    color: #f0eeee;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+    font-size: 22px;
+}
+
+nav ul li a {
+    color: #f4f0f0;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    background-color: #bfbbbb;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+footer {
+    background-color: #090606;
+    
+    padding: 10px;
+    text-align: center;
+   }
+.presentacion-proyecto {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px;
+    display: flex; 
+   
+}
+
+.presentacion-proyecto img {
+    max-width: 50%; 
+    margin-right: 20px; 
+}
+.detalles-proyecto p {
+    color: rgb(12, 6, 6);
+    font-size: 18px;
+ font-family: Georgia, serif;
+}
+
+.detalles-proyecto {
+    flex-grow: 1; 
+    border: 1px solid rgb(46, 62, 48); 
+    padding: 10px; 
+    margin-top: 210px;
+    background-color: #8bcf89
+    
+}
+#inicio {
+    background-color: #a2aae1; 
+    padding: 50px;
+    border: 1px solid rgb(45, 41, 41);
+    border-radius: 10px; 
+   
+}
+    
+    
+
+#inicio p {
+    color: rgb(9, 9, 15); 
+}
+
+
+
+#educacion {
+    background-color: #e6f7ff; 
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px; 
+   
+}
+
+
+#experiencia {
+    background-color: #ffffcc; 
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px; 
+   
+}
+
+
+#proyectos {
+    background-color: #c1b4c4; 
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px; 
+   
+}
+
+h2 {
+    color: #333; 
+}
+
+p {
+    color: rgb(9, 9, 15); 
+}
+.contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto {
+    width: 70%; 
+}
+
+.imagen {
+    width: 30%;
+}
+
+
+
+

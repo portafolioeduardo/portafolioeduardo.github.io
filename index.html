@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1> Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Acerca de Mí</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#experiencia">Experiencia Laboral</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" style="position: relative;">
+        <div style="display: flex;">
+            <div style="flex: 1;">
+                <center><b>Acerca De Mí</b> </center>
+                <p align="center">Hola soy Jean Pierre Eduardo Torres Meza, tengo 20 años, vivo en el distrito de Quilmana y actualmente estudio en el Instituto Superior Tecnológico de Cañete, estudiando la especialidad de  Arquitectura de Plataformas. En este portafolio se tendrán mis datos sobre mi experiencia laboral, mi historial educativo y mis proyectos que he venido realizando a lo largo del año.</p>
+                
+            </div>
+            <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center;">
+                <img src="usuarios.jpg" alt="Imagen" style="width: 210px; height: 210px;">
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="educacion" style="position: relative;">
+        <div style="display: flex; ">
+            <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center;margin-right: 450px;">
+                <img src="educacion.jpg" alt="Imagen" style="width: 210px; height: 210px;">
+            </div>
+            <div style="flex: 1;">
+                <center> <b>Educación</b> </center>
+                <p align="center">Inicié los estudios en el año 2010 en el colegio San Martín de Porres ubicado en el distrito de Quilmana. Continué mi etapa en la secundaria en el año 2016 en el colegio Miguel Grau, también ubicado en el distrito de Quilmana. Actualmente estudio en el Instituto Superior Tecnológico de Cañete, donde estoy estudiando la especialidad de Arquitectura de Plataformas.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <section id="experiencia" style="position: relative;">
+        <div style="display: flex;">
+            <div style="flex: 1;">
+                <center> <b>Experiencia Laboral</b></center>
+        <p align="center">Actualmente realizo mis practica de la especialidad de arquitectura y plataformas el instituto superior tecnologico de cañete.</p>
+            </div>
+            <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center;margin-right: 160px;">
+                <img src="foto.png" alt="Imagen" style="width: 210px; height: 210px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos">
+         <h2>Proyectos</h2>
+        <div class="presentacion-proyecto">
+            <img src="trabajo2 (2).png" alt="Presentación del Proyecto">
+            <div class="detalles-proyecto">
+                <p>Este proyecto se baso en crear una pagina web en el que elegi realizar una tienda de zapatillas virtual en el que contiene las secciones masculinas, femeninas y niños, Tambien cuenta con un registro para iniciar sesión o para registrarse en la web.</p>
+                    
+            </div>
+        </div>
+        <div class="presentacion-proyecto">
+            <img src="trabajo1 (1).png" alt="Otra Presentación del Proyecto">
+            <div class="detalles-proyecto">
+                <p>En este proyecto se realizo un formulario para el registro de una pagina web , se detallo los campos de nombre del usuario, correo electronico, teléfono y la contraseña.</p>
+            </div>
+        </div>
+        <form action="#" method="post">
+          <center>  <h2>Contacto</h2> </center>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+        
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+          <center>  <input type="submit" value="Enviar"></center>
+        </form>
+
+    
+</body>
+</html>
